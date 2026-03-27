@@ -1,0 +1,24 @@
+packages:
+  "framer-motion": "For page transitions, scroll staggered animations, and fluid interactive elements"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility function to efficiently merge Tailwind CSS classes"
+  "date-fns": "For formatting timestamps on grievances and posts"
+
+images:
+  - path: "artifacts/impact-hub/public/images/hero-cyber-bg.png"
+    description: "Abstract dark cyberpunk background with deep slate, glowing neon cyan and purple grid lines, out of focus glass light flares, dramatic and futuristic"
+    aspect_ratio: "16:9"
+  - path: "artifacts/impact-hub/public/images/bento-solver.png"
+    description: "Abstract minimalist 3D rendering of interconnected glowing nodes in neon blue against dark slate background, representing community connection and problem solving"
+    aspect_ratio: "1:1"
+  - path: "artifacts/impact-hub/public/images/bento-lost.png"
+    description: "Abstract 3D composition with a glowing purple magnifying glass symbol floating above a reflective dark glass surface, neon reflections"
+    aspect_ratio: "1:1"
+  - path: "artifacts/impact-hub/public/images/bento-career.png"
+    description: "Abstract futuristic compass or targeting reticle glowing in neon cyan and magenta, floating in dark void, representing guidance and future"
+    aspect_ratio: "1:1"
+
+notes:
+  - App is entirely frontend-driven using localStorage for persistence as requested.
+  - No backend API calls are made.
+  - Implemented a custom useLocalStorage hook to manage state across pages.
